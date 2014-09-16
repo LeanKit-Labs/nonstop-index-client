@@ -1,0 +1,38 @@
+{
+  "name": "continua-hub-client",
+  "version": "0.1.0-1",
+  "description": "Library for communicating with the Continua hub HTTP API.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LeanKit-Labs/continua-hub-client"
+  },
+  "keywords": [
+    "continua",
+    "ci",
+    "build"
+  ],
+  "author": "Alex Robson",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/LeanKit-Labs/continua-hub-client/issues"
+  },
+  "homepage": "https://github.com/LeanKit-Labs/continua-hub-client",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-mocha": "^1.0.0",
+    "should": "^4.0.4",
+    "sinon": "^1.10.3"
+  },
+  "dependencies": {
+    "configya": "~0.1.0",
+    "debug": "^2.0.0",
+    "lodash": "^2.4.1",
+    "mkdirp": "^0.5.0",
+    "request": "^2.42.0",
+    "when": "^3.4.5"
+  }
+}

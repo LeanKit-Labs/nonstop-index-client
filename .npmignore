@@ -1,0 +1,7 @@
+demo/
+tmp/
+node_modules/
+spec/
+packages/
+installed/
+downloads/
