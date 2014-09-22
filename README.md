@@ -1,5 +1,5 @@
-## continua-hub-client
-Library for communicating with the Continua hub HTTP API.
+## nonstop-hub-client
+Library for communicating with the nonstop hub HTTP API.
 
 ## Use
 To get a configured instance of the server API, you can use one of the following approaches:
@@ -8,7 +8,7 @@ To get a configured instance of the server API, you can use one of the following
 See the Configuration section for a detailed explanation of the possible configuration values
 ```javascript
 // for uploading
-var server = require( 'continua-hub-client' )( {
+var server = require( 'nonstop-hub-client' )( {
   host: 'my-hub',
   port: 443
 } );
@@ -16,7 +16,7 @@ var server = require( 'continua-hub-client' )( {
 
 
 // for getting package lists/downloading
-var server = require( 'continua-hub-client' )( {
+var server = require( 'nonstop-hub-client' )( {
   host: 'my-hub',
   port: 443,
   project: 'test',
@@ -29,7 +29,7 @@ var server = require( 'continua-hub-client' )( {
 ```
 
 ### Daedalus - Service and Configuration
-This example is a bit over-simplified. See [daedalus](https://github.com/LeanKit-Labs/daedalus) for more advanced use patterns. The point is to show how you can easily use this library in conjunction with daedalus and fount to auto-discover the continua-hub end point from Consul.
+This example is a bit over-simplified. See [daedalus](https://github.com/LeanKit-Labs/daedalus) for more advanced use patterns. The point is to show how you can easily use this library in conjunction with daedalus and fount to auto-discover the nonstop-hub end point from Consul.
 
 __index.js__
 ```javascript
@@ -219,7 +219,7 @@ This would not have been possible without several great Node modules:
  * debug
 
 ## Dependents
-The following continua projects rely on this library:
+The following nonstop projects rely on this library:
 
- * [build cli](https://github.com/LeanKit-Labs/continua)
- * [build agent](https://github.com/LeanKit-Labs/continua-agent)
+ * [build cli](https://github.com/LeanKit-Labs/nonstop)
+ * [build agent](https://github.com/LeanKit-Labs/nonstop-agent)
